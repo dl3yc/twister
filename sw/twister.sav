@@ -1,0 +1,54 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Tue Apr 26 00:58:32 2016
+[*]
+[dumpfile] "/home/yc/projects16/ronja/sw/twister.ghw"
+[dumpfile_mtime] "Tue Apr 26 00:57:34 2016"
+[dumpfile_size] 8201597
+[savefile] "/home/yc/projects16/ronja/sw/twister.sav"
+[timestart] 0
+[size] 1680 1003
+[pos] 0 24
+*-41.658997 12600000000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.twister_tb.
+[treeopen] top.twister_tb.dut.
+[sst_width] 201
+[signals_width] 280
+[sst_expanded] 1
+[sst_vpaned_height] 427
+@200
+-TX Discriminator
+@28
+top.twister_tb.dut.tp_rx
+top.twister_tb.dut.tp_edge
+top.twister_tb.dut.tp_ext0
+top.twister_tb.dut.tp_ext1
+top.twister_tb.dut.tp_traffic_n
+top.twister_tb.dut.osc
+top.twister_tb.dut.coax_tx
+@200
+-RX Discriminator
+@28
+top.twister_tb.dut.coax_rx
+top.twister_tb.dut.coax_edge
+top.twister_tb.dut.coax_ext0
+top.twister_tb.dut.coax_traffic
+@200
+-LIT Pulse Generator
+@28
+top.twister_tb.dut.gen0.rst
+top.twister_tb.dut.gen0.q
+@200
+-TX
+@800028
+#{top.twister_tb.dut.tp_tx[1:0]} top.twister_tb.dut.tp_tx[1] top.twister_tb.dut.tp_tx[0]
+@28
+top.twister_tb.dut.tp_tx[1]
+top.twister_tb.dut.tp_tx[0]
+@29
+top.twister_tb.tx
+@1001200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0
