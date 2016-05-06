@@ -1,0 +1,10 @@
+NET "clk" LOC = "P15";
+
+NET "led_rx" LOC = "P34";
+NET "led_tx" LOC = "P35";
+
+NET "coax_rx" LOC = "P57";
+NET "tp_tx<0>" LOC = "P58";
+NET "tp_tx<1>" LOC = "P59";
+NET "tp_rx" LOC = "P60";
+NET "coax_tx" LOC = "P64";
